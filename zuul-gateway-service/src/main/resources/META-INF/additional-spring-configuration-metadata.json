@@ -1,0 +1,33 @@
+{
+  "properties": [
+    {
+      "name": "ribbon.eureka.ReadTimeout",
+      "type": "java.lang.String",
+      "description": "Description for ribbon.eureka.ReadTimeout."
+    },
+    {
+      "name": "ribbon.eureka.ConnectTimeout",
+      "type": "java.lang.String",
+      "description": "Description for ribbon.eureka.ConnectTimeout."
+    },
+    {
+      "name": "ribbon.ReadTimeout",
+      "type": "java.lang.String",
+      "description": "Description for ribbon.ReadTimeout."
+    },
+    {
+      "name": "ribbon.ConnectTimeout",
+      "type": "java.lang.String",
+      "description": "Description for ribbon.ConnectTimeout."
+    },
+    {
+      "name": "endpoints.restart.enabled",
+      "type": "java.lang.String",
+      "description": "Description for endpoints.restart.enabled."
+    },
+    {
+      "name": "endpoints.shutdown",
+      "type": "java.lang.String",
+      "description": "Description for endpoints.shutdown."
+    }
+  ] }
