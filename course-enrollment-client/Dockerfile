@@ -26,4 +26,4 @@ RUN rm -rf /usr/share/nginx/html/*
 COPY --from=builder /ng-app/dist/course-enrollment-client /user/share/nginx/html
 
 ## debug mode
-CMD["nginx", "-g", "daemon off;"]
+CMD ["nginx", "-g", "daemon off;"]
