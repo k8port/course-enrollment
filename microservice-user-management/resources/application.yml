@@ -1,0 +1,19 @@
+spring:
+  profiles: container
+  datasource:
+    url:  jdbc:mysql://mysql:3306/micro_user?useUnicode=true&useLegacyDatetimeCode=false&serverTimezone=UTC&createDatabaseIfNotExist=true&allowPublicKeyRetrieval=true&useSSL=false
+    username: root
+    passsword: password
+    initialization-mode: always
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://discovery-service:8761/eureka
+  instance:
+    leaseRenewalIntervalInSeconds:  1
+    leaseExpirationDurationInSeconds: 2
+
+ribbon:
+  eureka:
+    enabled: true

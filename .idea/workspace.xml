@@ -1,7 +1,137 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e9e24468-9cad-4b28-b31c-0004db3cdc03" name="Default Changelist" comment="" />
+    <list default="true" id="e9e24468-9cad-4b28-b31c-0004db3cdc03" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/microservice_user_management_main_Web_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/microservice_user_management_test_Web_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/k8port.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cassandra/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cassandra/docker-entrypoint.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/course-enrollment-client/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/course-enrollment-client/nginx/default.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/course-enrollment-client/wait-for-it.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-discovery-service/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-discovery-service/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-discovery-service/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-discovery-service/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-discovery-service/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-discovery-service/wait-for-it.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-course-management/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-course-management/resources/hibernate.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-course-management/wait-for-it.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-log-management/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-log-management/wait-for-it.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-user-management/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-user-management/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-user-management/resources/META-INF/additional-spring-configuration-metadata.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-user-management/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-user-management/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice-user-management/wait-for-it.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wait-for-it.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zuul-gateway-service/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zuul-gateway-service/wait-for-it.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-user-management /.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-discovery-service/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-user-management /build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-user-management/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-user-management /gradle/wrapper/gradle-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-discovery-service/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-user-management /gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-discovery-service/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-user-management /gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-discovery-service/gradlew" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-user-management /gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-discovery-service/gradlew.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-user-management /settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-user-management/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-user-management /src/main/java/com/k8port/microserviceusermanagement/MicroserviceUserManagementApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-user-management/src/main/java/com/k8port/microserviceusermanagement/MicroserviceUserManagementApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-user-management /src/main/java/com/k8port/microserviceusermanagement/config/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-user-management/src/main/java/com/k8port/microserviceusermanagement/config/WebSecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-user-management /src/main/java/com/k8port/microserviceusermanagement/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-user-management/src/main/java/com/k8port/microserviceusermanagement/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-user-management /src/main/java/com/k8port/microserviceusermanagement/model/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-user-management/src/main/java/com/k8port/microserviceusermanagement/model/Role.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-user-management /src/main/java/com/k8port/microserviceusermanagement/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-user-management/src/main/java/com/k8port/microserviceusermanagement/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-user-management /src/main/java/com/k8port/microserviceusermanagement/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-user-management/src/main/java/com/k8port/microserviceusermanagement/repository/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-user-management /src/main/java/com/k8port/microserviceusermanagement/service/UserDetailServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-user-management/src/main/java/com/k8port/microserviceusermanagement/service/UserDetailServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-user-management /src/main/java/com/k8port/microserviceusermanagement/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-user-management/src/main/java/com/k8port/microserviceusermanagement/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-user-management /src/main/java/com/k8port/microserviceusermanagement/service/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-user-management/src/main/java/com/k8port/microserviceusermanagement/service/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-user-management /src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-user-management /src/main/resources/db/changelog/db.changelog-1.0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-user-management/resources/db/changelog/db.changelog-1.0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-user-management /src/main/resources/db/changelog/db.changelog-master.xml" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-user-management/resources/db/changelog/db.changelog-master.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-user-management /src/test/java/com/k8port/microserviceusermanagement/MicroserviceUserManagementApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-user-management/src/test/java/com/k8port/microserviceusermanagement/MicroserviceUserManagementApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices-course-management/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-course-management/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices-course-management/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-course-management/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices-course-management/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-course-management/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices-course-management/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-course-management/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices-course-management/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-course-management/gradlew" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices-course-management/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-course-management/gradlew.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices-course-management/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-course-management/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices-course-management/src/main/java/com/k8port/microservicescoursemanagement/CourseEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices-course-management/src/main/java/com/k8port/microservicescoursemanagement/DatabasechangelogEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices-course-management/src/main/java/com/k8port/microservicescoursemanagement/DatabasechangeloglockEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices-course-management/src/main/java/com/k8port/microservicescoursemanagement/MicroservicesCourseManagementApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-course-management/src/main/java/com/k8port/microservicecoursemanagement/MicroserviceCourseManagementApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices-course-management/src/main/java/com/k8port/microservicescoursemanagement/TransactionEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices-course-management/src/main/java/com/k8port/microservicescoursemanagement/config/HibernateConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-course-management/src/main/java/com/k8port/microservicecoursemanagement/config/HibernateConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices-course-management/src/main/java/com/k8port/microservicescoursemanagement/controller/CourseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-course-management/src/main/java/com/k8port/microservicecoursemanagement/controller/CourseController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices-course-management/src/main/java/com/k8port/microservicescoursemanagement/intercomm/LogClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-course-management/src/main/java/com/k8port/microservicecoursemanagement/intercomm/LogClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices-course-management/src/main/java/com/k8port/microservicescoursemanagement/intercomm/UserClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-course-management/src/main/java/com/k8port/microservicecoursemanagement/intercomm/UserClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices-course-management/src/main/java/com/k8port/microservicescoursemanagement/model/Course.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-course-management/src/main/java/com/k8port/microservicecoursemanagement/model/Course.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices-course-management/src/main/java/com/k8port/microservicescoursemanagement/model/IModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-course-management/src/main/java/com/k8port/microservicecoursemanagement/model/IModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices-course-management/src/main/java/com/k8port/microservicescoursemanagement/model/Transaction.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-course-management/src/main/java/com/k8port/microservicecoursemanagement/model/Transaction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices-course-management/src/main/java/com/k8port/microservicescoursemanagement/repository/AbstractGenericDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-course-management/src/main/java/com/k8port/microservicecoursemanagement/repository/AbstractGenericDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices-course-management/src/main/java/com/k8port/microservicescoursemanagement/repository/CourseRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-course-management/src/main/java/com/k8port/microservicecoursemanagement/repository/CourseRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices-course-management/src/main/java/com/k8port/microservicescoursemanagement/repository/CourseRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-course-management/src/main/java/com/k8port/microservicecoursemanagement/repository/CourseRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices-course-management/src/main/java/com/k8port/microservicescoursemanagement/repository/IGenericDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-course-management/src/main/java/com/k8port/microservicecoursemanagement/repository/IGenericDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices-course-management/src/main/java/com/k8port/microservicescoursemanagement/repository/TransactionRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-course-management/src/main/java/com/k8port/microservicecoursemanagement/repository/TransactionRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices-course-management/src/main/java/com/k8port/microservicescoursemanagement/repository/TransactionRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-course-management/src/main/java/com/k8port/microservicecoursemanagement/repository/TransactionRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices-course-management/src/main/java/com/k8port/microservicescoursemanagement/service/CourseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-course-management/src/main/java/com/k8port/microservicecoursemanagement/service/CourseService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices-course-management/src/main/java/com/k8port/microservicescoursemanagement/service/CourseServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-course-management/src/main/java/com/k8port/microservicecoursemanagement/service/CourseServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices-course-management/src/main/resources/META-INF/additional-spring-configuration-metadata.json" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-course-management/resources/META-INF/additional-spring-configuration-metadata.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices-course-management/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-course-management/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices-course-management/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-course-management/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices-course-management/src/main/resources/db/changelog/db.changelog-1.0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-course-management/resources/db/changelog/db.changelog-1.0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices-course-management/src/main/resources/db/changelog/db.changelog-master.xml" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-course-management/resources/db/changelog/db.changelog-master.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices-course-management/src/test/java/com/k8port/microservicescoursemanagement/MicroservicesCourseManagementApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-course-management/src/test/java/com/k8port/microservicescoursemanagement/MicroservicesCourseManagementApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices-log-management/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-log-management/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices-log-management/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-log-management/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices-log-management/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-log-management/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices-log-management/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-log-management/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices-log-management/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-log-management/gradlew" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices-log-management/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-log-management/gradlew.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices-log-management/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-log-management/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices-log-management/src/main/java/com/k8port/MicroservicesLogManagementApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-log-management/src/main/java/com/k8port/microservicelogmanagement/MicroserviceLogManagementApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices-log-management/src/main/java/com/k8port/config/CassandraConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-log-management/src/main/java/com/k8port/microservicelogmanagement/config/CassandraConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices-log-management/src/main/java/com/k8port/config/WebConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-log-management/src/main/java/com/k8port/microservicelogmanagement/config/WebConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices-log-management/src/main/java/com/k8port/controller/LogController.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-log-management/src/main/java/com/k8port/microservicelogmanagement/controller/LogController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices-log-management/src/main/java/com/k8port/dto/StringResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-log-management/src/main/java/com/k8port/microservicelogmanagement/dto/StringResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices-log-management/src/main/java/com/k8port/model/IModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-log-management/src/main/java/com/k8port/microservicelogmanagement/model/IModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices-log-management/src/main/java/com/k8port/model/Log.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-log-management/src/main/java/com/k8port/microservicelogmanagement/model/Log.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices-log-management/src/main/java/com/k8port/model/Summary.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-log-management/src/main/java/com/k8port/microservicelogmanagement/model/Summary.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices-log-management/src/main/java/com/k8port/repository/LogRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-log-management/src/main/java/com/k8port/microservicelogmanagement/repository/LogRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices-log-management/src/main/java/com/k8port/repository/SummaryRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-log-management/src/main/java/com/k8port/microservicelogmanagement/repository/SummaryRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices-log-management/src/main/java/com/k8port/service/LogService.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-log-management/src/main/java/com/k8port/microservicelogmanagement/service/LogService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices-log-management/src/main/java/com/k8port/service/LogServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-log-management/src/main/java/com/k8port/microservicelogmanagement/service/LogServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices-log-management/src/main/resources/META-INF/additional-spring-configuration-metadata.json" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-log-management/resources/META-INF/additional-spring-configuration-metadata.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices-log-management/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-log-management/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices-log-management/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-log-management/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices-log-management/src/test/java/com/k8port/MicroservicesLogManagementApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-log-management/src/test/java/com/k8port/microservicelogmanagement/MicroserviceLogManagementApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices_eureka-discovery-service/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-user-management/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices_eureka-discovery-service/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices_eureka-discovery-service/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices_eureka-discovery-service/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-user-management/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices_eureka-discovery-service/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-user-management/gradlew" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices_eureka-discovery-service/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-user-management/gradlew.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices_eureka-discovery-service/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices_eureka-discovery-service/src/main/java/com/k8port/microservices_eurekadiscoveryservice/MicroservicesEurekaDiscoveryServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-discovery-service/src/main/java/com/k8port/eurekadiscoveryservice/EurekaDiscoveryServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices_eureka-discovery-service/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices_eureka-discovery-service/src/test/java/com/k8port/microservices_eurekadiscoveryservice/MicroservicesEurekaDiscoveryServiceApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-discovery-service/src/test/java/com/k8port/eurekadiscoveryservice/EurekaDiscoveryServiceApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zuul-gateway-service/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/zuul-gateway-service/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zuul-gateway-service/src/main/resources/META-INF/additional-spring-configuration-metadata.json" beforeDir="false" afterPath="$PROJECT_DIR$/zuul-gateway-service/resources/META-INF/additional-spring-configuration-metadata.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zuul-gateway-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/zuul-gateway-service/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zuul-gateway-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/zuul-gateway-service/resources/application.yml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,33 +140,251 @@
   <component name="CodeInsightWorkspaceSettings">
     <option name="optimizeImportsOnTheFly" value="true" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$/eureka-discovery-service">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/microservice-course-management">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/microservice-log-management">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/microservice-user-management">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/microservice-user-management ">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/zuul-gateway-service">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$/microservice-user-management ">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/microservice-course-management">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/eureka-discovery-service">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/microservice-user-management">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/microservice-log-management">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/course-enrollment-client" />
   </component>
   <component name="ProjectId" id="1YgjiEOIyJjdePIWTVaKXdwS37v" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql&#10;cassandra" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/zuul-gateway-service" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs.protractor.protractor_package" value="$PROJECT_DIR$/course-enrollment-client/node_modules/protractor" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.folding" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
+    <property name="show.run.dashboard.notification" value="false" />
+    <property name="ts.external.directory.path" value="$PROJECT_DIR$/course-enrollment-client/node_modules/typescript/lib" />
   </component>
-  <component name="RunManager" selected="npm.Angular CLI Server">
+  <component name="ReactorSettings">
+    <option name="debugInitializationType" value="AGENT" />
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.k8port.microserviceusermanagement.config" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/zuul-gateway-service" />
+      <recent name="$PROJECT_DIR$/microservice-course-management" />
+      <recent name="$PROJECT_DIR$/course-enrollment-client" />
+      <recent name="$PROJECT_DIR$/eureka-discovery-service" />
+      <recent name="$PROJECT_DIR$/microservices-log-management" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/zuul-gateway-service" />
+      <recent name="$PROJECT_DIR$/microservice_eureka-discovery-service" />
+      <recent name="$PROJECT_DIR$/microservice-course-management" />
+      <recent name="$PROJECT_DIR$/microservice-user-management " />
+      <recent name="$PROJECT_DIR$/microservices-log-management" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="gradle build" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Gradle.microservice-user-management [build]">
+    <configuration name="eureka-discovery-service [assemble]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/eureka-discovery-service" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="assemble" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="eureka-discovery-service [bootJar]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/eureka-discovery-service" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="bootJar" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="eureka-discovery-service [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/eureka-discovery-service" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="microservice-log-management [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/microservice-log-management" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" value="" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="microservice-user-management [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/microservice-user-management" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="Tests (course-enrollment-client)" type="JavaScriptTestRunnerKarma">
       <config-file value="$PROJECT_DIR$/course-enrollment-client/karma.conf.js" />
+      <karma-package-dir value="$PROJECT_DIR$/course-enrollment-client/node_modules/@angular/cli" />
       <working-directory value="$PROJECT_DIR$/course-enrollment-client" />
       <node-interpreter value="project" />
       <envs />
@@ -45,6 +393,7 @@
     <configuration name="E2E Tests (course-enrollment-client)" type="JavaScriptTestRunnerProtractor">
       <config-file value="$PROJECT_DIR$/course-enrollment-client/e2e/protractor.conf.js" />
       <node-interpreter value="project" />
+      <protractor-package value="$PROJECT_DIR$/course-enrollment-client/node_modules/protractor" />
       <protractor-options value="" />
       <envs />
       <scope-kind value="ALL" />
@@ -52,6 +401,109 @@
     </configuration>
     <configuration name="Angular Application" type="JavascriptDebugType" uri="http://localhost:4200">
       <method v="2" />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <module name="course-enrollment" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <module name="course-enrollment" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaDiscoveryServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="eureka-discovery-service.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.k8port.eurekadiscoveryservice.EurekaDiscoveryServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MicroserviceCourseManagementApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="microservice-course-management.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.k8port.microservicecoursemanagement.MicroserviceCourseManagementApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MicroserviceEurekaDiscoveryServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="microservice_eureka-discovery-service.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.k8port.microservice_eurekadiscoveryservice.MicroserviceEurekaDiscoveryServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MicroserviceLogManagementApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="microservice-log-management.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.k8port.microservicelogmanagement.MicroserviceLogManagementApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MicroserviceUserManagementApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="microservice-user-management.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.k8port.microservicelogmanagement.microserviceusermanagement.MicroserviceUserManagementApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MicroserviceUserManagementApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="microservice-user-management.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.k8port.microserviceusermanagement.MicroserviceUserManagementApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MicroservicesLogManagementApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="microservices-log-management.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.k8port.MicroserviceLogManagementApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ZuulGatewayServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="zuul-gateway-service.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.k8port.zuulgatewayservice.ZuulGatewayServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="Angular CLI Server" type="js.build_tools.npm">
       <package-json value="$PROJECT_DIR$/course-enrollment-client/package.json" />
@@ -63,6 +515,15 @@
       <envs />
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.microservice-user-management [build]" />
+        <item itemvalue="Gradle.microservice-log-management [build]" />
+        <item itemvalue="Gradle.eureka-discovery-service [build]" />
+        <item itemvalue="Gradle.eureka-discovery-service [bootJar]" />
+        <item itemvalue="Gradle.eureka-discovery-service [assemble]" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -77,6 +538,13 @@
       <workItem from="1583371257618" duration="1436000" />
       <workItem from="1583373480227" duration="1123000" />
       <workItem from="1583376459711" duration="369000" />
+      <workItem from="1583376838750" duration="8573000" />
+      <workItem from="1583433143432" duration="284000" />
+      <workItem from="1583433471594" duration="350000" />
+      <workItem from="1583433830676" duration="1291000" />
+      <workItem from="1583435132940" duration="2283000" />
+      <workItem from="1583437436570" duration="1617000" />
+      <workItem from="1583439066021" duration="4241000" />
     </task>
     <servers />
   </component>
@@ -84,13 +552,120 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="1594" y="276" key="#/Users/k8port/workspace/course-enrollment/microservices-log-management/build.gradle" timestamp="1583436339630">
+      <screen x="0" y="23" width="2560" height="1337" />
+    </state>
+    <state x="1594" y="276" key="#/Users/k8port/workspace/course-enrollment/microservices-log-management/build.gradle/0.23.2560.1337@0.23.2560.1337" timestamp="1583436339630" />
     <state x="1515" y="276" key="#Project_Structure" timestamp="1583372100874">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
     <state x="1515" y="276" key="#Project_Structure/0.23.2560.1337@0.23.2560.1337" timestamp="1583372100874" />
+    <state x="1513" y="351" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583426171965">
+      <screen x="0" y="23" width="2560" height="1337" />
+    </state>
+    <state x="1513" y="351" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.2560.1337@0.23.2560.1337" timestamp="1583426171965" />
+    <state x="1695" y="628" width="745" height="325" key="#com.intellij.framework.addSupport.AddSupportForSingleFrameworkDialog" timestamp="1583432385607">
+      <screen x="0" y="23" width="2560" height="1337" />
+    </state>
+    <state x="1695" y="628" width="745" height="325" key="#com.intellij.framework.addSupport.AddSupportForSingleFrameworkDialog/0.23.2560.1337@0.23.2560.1337" timestamp="1583432385607" />
+    <state x="1471" y="320" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1583436233936">
+      <screen x="0" y="23" width="2560" height="1337" />
+    </state>
+    <state x="1471" y="320" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.23.2560.1337@0.23.2560.1337" timestamp="1583436233936" />
     <state x="1738" y="593" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1583371977710">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
     <state x="1738" y="593" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.23.2560.1337@0.23.2560.1337" timestamp="1583371977710" />
+    <state x="1308" y="613" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1583436024590">
+      <screen x="0" y="23" width="2560" height="1337" />
+    </state>
+    <state x="1308" y="613" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.23.2560.1337@0.23.2560.1337" timestamp="1583436024590" />
+    <state x="1554" y="536" width="719" height="322" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1583497939845">
+      <screen x="0" y="23" width="2560" height="1337" />
+    </state>
+    <state x="1554" y="536" width="719" height="322" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.23.2560.1337@0.23.2560.1337" timestamp="1583497939845" />
+    <state x="1589" y="390" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1583435491713">
+      <screen x="0" y="23" width="2560" height="1337" />
+    </state>
+    <state x="1589" y="390" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.2560.1337@0.23.2560.1337" timestamp="1583435491713" />
+    <state x="1619" y="502" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1583497930125">
+      <screen x="0" y="23" width="2560" height="1337" />
+    </state>
+    <state x="1619" y="502" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.23.2560.1337@0.23.2560.1337" timestamp="1583497930125" />
+    <state width="1241" height="369" key="GridCell.Tab.0.bottom" timestamp="1583511849921">
+      <screen x="0" y="23" width="2560" height="1337" />
+    </state>
+    <state width="1241" height="369" key="GridCell.Tab.0.bottom/0.23.2560.1337@0.23.2560.1337" timestamp="1583511849921" />
+    <state width="1241" height="369" key="GridCell.Tab.0.center" timestamp="1583511849921">
+      <screen x="0" y="23" width="2560" height="1337" />
+    </state>
+    <state width="1241" height="369" key="GridCell.Tab.0.center/0.23.2560.1337@0.23.2560.1337" timestamp="1583511849921" />
+    <state width="1241" height="369" key="GridCell.Tab.0.left" timestamp="1583511849921">
+      <screen x="0" y="23" width="2560" height="1337" />
+    </state>
+    <state width="1241" height="369" key="GridCell.Tab.0.left/0.23.2560.1337@0.23.2560.1337" timestamp="1583511849921" />
+    <state width="1241" height="369" key="GridCell.Tab.0.right" timestamp="1583511849921">
+      <screen x="0" y="23" width="2560" height="1337" />
+    </state>
+    <state width="1241" height="369" key="GridCell.Tab.0.right/0.23.2560.1337@0.23.2560.1337" timestamp="1583511849921" />
+    <state width="1241" height="369" key="GridCell.Tab.1.bottom" timestamp="1583511781309">
+      <screen x="0" y="23" width="2560" height="1337" />
+    </state>
+    <state width="1241" height="369" key="GridCell.Tab.1.bottom/0.23.2560.1337@0.23.2560.1337" timestamp="1583511781309" />
+    <state width="1241" height="369" key="GridCell.Tab.1.center" timestamp="1583511781308">
+      <screen x="0" y="23" width="2560" height="1337" />
+    </state>
+    <state width="1241" height="369" key="GridCell.Tab.1.center/0.23.2560.1337@0.23.2560.1337" timestamp="1583511781308" />
+    <state width="1241" height="369" key="GridCell.Tab.1.left" timestamp="1583511781308">
+      <screen x="0" y="23" width="2560" height="1337" />
+    </state>
+    <state width="1241" height="369" key="GridCell.Tab.1.left/0.23.2560.1337@0.23.2560.1337" timestamp="1583511781308" />
+    <state width="1241" height="369" key="GridCell.Tab.1.right" timestamp="1583511781309">
+      <screen x="0" y="23" width="2560" height="1337" />
+    </state>
+    <state width="1241" height="369" key="GridCell.Tab.1.right/0.23.2560.1337@0.23.2560.1337" timestamp="1583511781309" />
+    <state x="1401" y="375" key="IDE.errors.dialog" timestamp="1583512625430">
+      <screen x="0" y="23" width="2560" height="1337" />
+    </state>
+    <state x="1401" y="375" key="IDE.errors.dialog/0.23.2560.1337@0.23.2560.1337" timestamp="1583512625430" />
+    <state x="1280" y="243" key="SettingsEditor" timestamp="1583511768212">
+      <screen x="0" y="23" width="2560" height="1337" />
+    </state>
+    <state x="1280" y="243" key="SettingsEditor/0.23.2560.1337@0.23.2560.1337" timestamp="1583511768212" />
+    <state x="1597" y="400" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1583434132113">
+      <screen x="0" y="23" width="2560" height="1337" />
+    </state>
+    <state x="1597" y="400" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.23.2560.1337@0.23.2560.1337" timestamp="1583434132113" />
+    <state x="1367" y="123" width="1093" height="1137" key="dock-window-1" timestamp="1583510886219">
+      <screen x="0" y="23" width="2560" height="1337" />
+    </state>
+    <state x="1367" y="123" width="1093" height="1137" key="dock-window-1/0.23.2560.1337@0.23.2560.1337" timestamp="1583510886219" />
+    <state x="1345" y="227" width="1057" height="654" key="find.popup" timestamp="1583511653463">
+      <screen x="0" y="23" width="2560" height="1337" />
+    </state>
+    <state x="1345" y="227" width="1057" height="654" key="find.popup/0.23.2560.1337@0.23.2560.1337" timestamp="1583511653463" />
+    <state x="1494" y="322" width="838" height="1032" key="run.anything.popup" timestamp="1583512843671">
+      <screen x="0" y="23" width="2560" height="1337" />
+    </state>
+    <state x="1494" y="322" width="838" height="1032" key="run.anything.popup/0.23.2560.1337@0.23.2560.1337" timestamp="1583512843671" />
+    <state x="1494" y="321" width="838" height="1032" key="search.everywhere.popup" timestamp="1583430590860">
+      <screen x="0" y="23" width="2560" height="1337" />
+    </state>
+    <state x="1494" y="321" width="838" height="1032" key="search.everywhere.popup/0.23.2560.1337@0.23.2560.1337" timestamp="1583430590860" />
+    <state x="1284" y="384" key="spring file set editor" timestamp="1583432491979">
+      <screen x="0" y="23" width="2560" height="1337" />
+    </state>
+    <state x="1284" y="384" key="spring file set editor/0.23.2560.1337@0.23.2560.1337" timestamp="1583432491979" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/microservice-user-management/src/test/java/com/k8port/microserviceusermanagement/MicroserviceUserManagementApplicationTests.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

@@ -5,7 +5,7 @@ plugins {
 }
 
 group = 'com.k8port'
-version = '0.0.1-SNAPSHOT'
+version = '0.0.1'
 sourceCompatibility = '1.8'
 
 repositories {
@@ -15,6 +15,10 @@ repositories {
 
 ext {
 	set('springCloudVersion', "Hoxton.SR1")
+}
+
+jar {
+	archivesBaseName = 'zuul-gateway-service'
 }
 
 dependencies {

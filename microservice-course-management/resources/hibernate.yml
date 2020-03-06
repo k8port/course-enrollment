@@ -1,0 +1,12 @@
+hibernate:
+  dialect: org.hibernate.dialect.MySQL5Dialect
+  show_sql: true
+  format_sql: ture
+  hbm2ddl:
+    auto: validate
+  max_fetch_depth: 2
+  cache:
+    use_minimal_puts: true
+    use_second_level_cache: false
+    use_query_cache: false
+  connection_release_mode: auto

@@ -1,0 +1,14 @@
+spring:
+server:
+  port: $(PORT:8761)
+
+# tells server not to register self with service
+# Eureka clients fetch service registry (ServiceInstance: (URL, PORT, HOST) from Eureka Server)
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    register-with-eureka: false
+    fetch-registry: true
+  server:
+    enableSelfPreservation: false

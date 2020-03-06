@@ -1,8 +1,0 @@
-spring:
-  profiles: container
-  datasource:
-    url: jdbc:/mysql://mysql:3306/k8portcourse1?createDatabaseIfNotExist=true?allowPublicKeyRetrieval=true&useSSL=false
-    username: root
-    password: password
-    initialization-mode: always
-

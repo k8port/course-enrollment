@@ -1,0 +1,75 @@
+# Composer for sub-services, Dockerfile
+version: '3.0'
+services:
+  course-mysql:
+    #Pull latest mysql image from hub repository
+    image: mysql:latest
+    command: --max_allowed_packet=52505856 --bulk_insert_buffer_size=52505856
+    environment: [
+      -MYSQL_ROOT_PASSWORD=password
+      -MYSQL_DATABASE=micro_course
+      -MYSQL_USER=k8port
+      -MYSQL_PASSWORD=kate
+    ]
+    ports:
+      - 3306:3306
+    container_name: mysql
+  cassandra:
+    image: cassandra:latest
+    environment:
+      - "MAX_HEAP_SIZE=256MB"
+    ports:
+      - 9042:9042
+  discovery-service:
+    build: ./eureka-discovery-service
+    entrypoint: /wait-for-it.sh mysql:3306 --java -Djava.security.egd=file:/dev/./urandom -Dspring.profiles.active-container -jar app.jar
+    ports:
+      - 8761:8761
+    links:
+      - course-mysql:mysql
+  user-service:
+    build: ./microservice-user-management
+    # wait until changeSets implemented then call app.jar
+    entrypoint: /wait-for-it.sh discovery-service:8761 --java -Djava.security.egd-file:/dev/./urandom -Dspring.profiles.active-container -jar app.jar
+    depends_on:
+      - discovery-service
+    links:
+      - course-mysql:mysql
+    ports:
+      - 8000:8000
+  log-service:
+    build: ./microservice-log-management
+    environment:
+      SPRING_DATA_CASSANDRA_CONTACT_POINTS: cassandra
+    entrypoint: /wait-for-it.sh cassandra:9042 --java -Djava.security.egd=file:/dev/./urandom -Dspring.profiles.active-container -jar app.jar
+    depends_on:
+      - cassandra
+      - discovery-service
+    ports:
+      - 8002:8002
+  course-service:
+    build: ./microservice-course-management
+    entrypoint: /wait-for-it.sh discovery-service:8761 --java -Djava.security.egd=file:/dev/./urandom -Dspring.profiles.active-container -jar app.jar
+    depends_on:
+      - course-mysql
+      - user-service
+      - log-service
+      - discovery-service
+    links:
+      - course-mysql:mysql
+    ports:
+      -  8001:8001
+  gateway-service:
+    build: ./zuul-gateway-service
+    entrypoint: /wait-for-it.sh course-service:8001 --java -Djava.security.egd=file:/dev/./urandom -Dspring.profiles.active-container -jar app.jar
+    depends_on:
+      - discovery-service
+      - user-service
+      - log-service
+      - course-service
+    ports:
+      - 8765:8765
+  course-cli:
+    build: ./course-enrollment-client
+    ports:
+      - 4200:80

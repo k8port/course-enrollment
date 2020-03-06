@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="@localhost:3306/micro_user" uuid="5bf5d269-d95f-438e-a8cc-c23ae40c9919">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3306/micro_user</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="@localhost:3306/micro_course" uuid="e903325a-2da9-441f-a37c-074dd488c274">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3306/micro_course</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="@localhost" uuid="3e2e488b-c6f9-4963-b32b-9476240e8009">
+      <driver-ref>cassandra</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.dbschema.CassandraJdbcDriver</jdbc-driver>
+      <jdbc-url>jdbc:cassandra://localhost:9042</jdbc-url>
+    </data-source>
+  </component>
+</project>

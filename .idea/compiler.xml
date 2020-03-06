@@ -1,6 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CompilerConfiguration">
-    <bytecodeTargetLevel target="8" />
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true">
+        <processorPath>
+          <entry name="$PROJECT_DIR$/microservice-user-management" />
+        </processorPath>
+      </profile>
+      <profile name="Gradle Imported" enabled="true">
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-configuration-processor/2.2.5.RELEASE/3426cb36706915047406da672b7ee9628f5f47d6/spring-boot-configuration-processor-2.2.5.RELEASE.jar" />
+        </processorPath>
+        <module name="zuul-gateway-service.main" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="8">
+      <module name="microservice_eureka-discovery-service.main" target="1.8" />
+      <module name="microservice_eureka-discovery-service.test" target="1.8" />
+      <module name="microservices-log-management.main" target="1.8" />
+      <module name="microservices-log-management.test" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
